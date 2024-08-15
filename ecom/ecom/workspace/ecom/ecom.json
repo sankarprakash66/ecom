@@ -1,0 +1,231 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"MK0z3JP9Qf\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h3\\\">E-Com</span><span style=\\\"font-size: 18px; letter-spacing: 0.18px;\\\"><b><br></b></span>\",\"col\":12}},{\"id\":\"GMDilDwH3-\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Item\",\"col\":3}},{\"id\":\"5k0SJfGq4L\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Customer\",\"col\":3}},{\"id\":\"ZAHoJCXclY\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Supplier\",\"col\":3}},{\"id\":\"ln_DkHhvgd\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Order\",\"col\":3}},{\"id\":\"7wFovaHWG3\",\"type\":\"paragraph\",\"data\":{\"text\":\"<span class=\\\"h3\\\">Doc Apps</span><br>\",\"col\":12}},{\"id\":\"wnsItrcMlj\",\"type\":\"card\",\"data\":{\"card_name\":\"Masters\",\"col\":4}},{\"id\":\"Pspf-UiscQ\",\"type\":\"card\",\"data\":{\"card_name\":\"Module\",\"col\":4}}]",
+ "creation": "2024-07-21 11:50:50.791847",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "retail",
+ "idx": 0,
+ "indicator_color": "orange",
+ "is_hidden": 0,
+ "label": "Ecom",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Masters",
+   "link_count": 9,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Ecom Item",
+   "link_count": 0,
+   "link_to": "Ecom Item",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Econ HSN",
+   "link_count": 0,
+   "link_to": "Econ HSN",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Ecom Category",
+   "link_count": 0,
+   "link_to": "Ecom Category",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Ecom Tax Category",
+   "link_count": 0,
+   "link_to": "Ecom Tax Category",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Ecom Item Brand",
+   "link_count": 0,
+   "link_to": "Ecom Item Brand",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Ecom Mode of Payment",
+   "link_count": 0,
+   "link_to": "Ecom Mode of Payment",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Ecom State",
+   "link_count": 0,
+   "link_to": "Ecom State",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Ecom Country",
+   "link_count": 0,
+   "link_to": "Ecom Country",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Ecom Address",
+   "link_count": 0,
+   "link_to": "Ecom Address",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Module",
+   "link_count": 6,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Ecom Supplier",
+   "link_count": 0,
+   "link_to": "Ecom Supplier",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Ecom Customer",
+   "link_count": 0,
+   "link_to": "Ecom Customer",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Ecom Shopping Cart",
+   "link_count": 0,
+   "link_to": "Ecom Shopping Cart",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Ecom Customer Favourites",
+   "link_count": 0,
+   "link_to": "Ecom Customer Favourites",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Ecom Item Ratings",
+   "link_count": 0,
+   "link_to": "Ecom Item Ratings",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Ecom Order",
+   "link_count": 0,
+   "link_to": "Ecom Order",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2024-08-15 19:47:53.031483",
+ "modified_by": "Administrator",
+ "module": "Ecom",
+ "name": "Ecom",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 1.0,
+ "shortcuts": [
+  {
+   "color": "Orange",
+   "doc_view": "List",
+   "label": "Item",
+   "link_to": "Ecom Item",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Orange",
+   "doc_view": "List",
+   "label": "Customer",
+   "link_to": "Ecom Customer",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Supplier",
+   "link_to": "Ecom Supplier",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Orange",
+   "doc_view": "List",
+   "label": "Order",
+   "link_to": "Ecom Order",
+   "stats_filter": "[]",
+   "type": "DocType"
+  }
+ ],
+ "title": "Ecom"
+}
