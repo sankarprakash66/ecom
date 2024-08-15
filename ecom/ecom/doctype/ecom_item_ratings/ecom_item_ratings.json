@@ -1,0 +1,120 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "naming_series:",
+ "creation": "2024-08-15 08:12:08.804728",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_et9h",
+  "naming_series",
+  "review_title",
+  "customer",
+  "column_break_dot0",
+  "review_type",
+  "customer_name",
+  "column_break_qsmz",
+  "ratings",
+  "item",
+  "section_break_sqta",
+  "description"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_et9h",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "hidden": 1,
+   "label": "Naming Series",
+   "options": "CTRT.-.YYYY.-"
+  },
+  {
+   "fieldname": "review_title",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Review Title",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_dot0",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "review_type",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Review Type",
+   "options": "\nVery Bad\nBad\nNormal\nGood\nVery Good",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_qsmz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "ratings",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Ratings",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_sqta",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Small Text",
+   "label": "Description"
+  },
+  {
+   "fieldname": "item",
+   "fieldtype": "Link",
+   "label": "Item",
+   "options": "Ecom Item",
+   "reqd": 1
+  },
+  {
+   "fieldname": "customer",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Customer",
+   "options": "Ecom Customer",
+   "reqd": 1
+  },
+  {
+   "fetch_from": "customer.customer_name",
+   "fieldname": "customer_name",
+   "fieldtype": "Data",
+   "label": "Customer Name"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-08-15 08:29:57.386398",
+ "modified_by": "Administrator",
+ "module": "Ecom",
+ "name": "Ecom Item Ratings",
+ "naming_rule": "By \"Naming Series\" field",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

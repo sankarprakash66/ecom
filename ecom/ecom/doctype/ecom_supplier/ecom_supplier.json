@@ -1,0 +1,142 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "naming_series:",
+ "creation": "2024-08-15 10:08:18.873482",
+ "default_view": "List",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_wbiw",
+  "naming_series",
+  "supplier_name",
+  "column_break_f9iv",
+  "supplier_email",
+  "column_break_vyvm",
+  "is_active",
+  "supplier_details_tab",
+  "address_1",
+  "address_2",
+  "contect_phone",
+  "city",
+  "column_break_4kea",
+  "state",
+  "country",
+  "latitude",
+  "longitude"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_wbiw",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "hidden": 1,
+   "label": "Supplier Id",
+   "options": "CUST.-.YYYY.-"
+  },
+  {
+   "fieldname": "column_break_f9iv",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_vyvm",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "is_active",
+   "fieldtype": "Check",
+   "label": "Is Active"
+  },
+  {
+   "fieldname": "address_1",
+   "fieldtype": "Small Text",
+   "label": "Address 1"
+  },
+  {
+   "fieldname": "address_2",
+   "fieldtype": "Data",
+   "label": "Address 2"
+  },
+  {
+   "fieldname": "contect_phone",
+   "fieldtype": "Data",
+   "label": "Contect Phone"
+  },
+  {
+   "fieldname": "city",
+   "fieldtype": "Data",
+   "label": "City"
+  },
+  {
+   "fieldname": "column_break_4kea",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "state",
+   "fieldtype": "Link",
+   "label": "State",
+   "options": "Ecom State"
+  },
+  {
+   "fieldname": "country",
+   "fieldtype": "Link",
+   "label": "Country",
+   "options": "Ecom Country"
+  },
+  {
+   "fieldname": "latitude",
+   "fieldtype": "Data",
+   "label": "Latitude"
+  },
+  {
+   "fieldname": "longitude",
+   "fieldtype": "Data",
+   "label": "Longitude"
+  },
+  {
+   "fieldname": "supplier_name",
+   "fieldtype": "Data",
+   "label": "Supplier Name"
+  },
+  {
+   "fieldname": "supplier_email",
+   "fieldtype": "Link",
+   "label": "Supplier Email",
+   "options": "User"
+  },
+  {
+   "fieldname": "supplier_details_tab",
+   "fieldtype": "Tab Break",
+   "label": "Supplier details"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-08-15 10:10:05.032720",
+ "modified_by": "Administrator",
+ "module": "Ecom",
+ "name": "Ecom Supplier",
+ "naming_rule": "By \"Naming Series\" field",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

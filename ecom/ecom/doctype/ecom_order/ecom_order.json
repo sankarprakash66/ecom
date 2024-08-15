@@ -1,0 +1,147 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-08-15 17:09:16.744358",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_lkko",
+  "customer",
+  "order_staus",
+  "column_break_yuej",
+  "customer_name",
+  "payment_status",
+  "column_break_ppvc",
+  "delivery_address",
+  "mode_of_payment",
+  "column_break_yu8e",
+  "order_date",
+  "deilvery_date",
+  "section_break_yale",
+  "order_items",
+  "section_break_7ms7",
+  "total_qty",
+  "column_break_yr3b",
+  "total_amount"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_lkko",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "customer",
+   "fieldtype": "Link",
+   "label": "Customer",
+   "options": "Ecom Customer"
+  },
+  {
+   "fieldname": "order_staus",
+   "fieldtype": "Select",
+   "label": "Order Staus",
+   "options": "Pending\nShipped\nDelivered\nCancelled"
+  },
+  {
+   "fieldname": "column_break_yuej",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "customer.customer_name",
+   "fieldname": "customer_name",
+   "fieldtype": "Data",
+   "label": "Customer Name"
+  },
+  {
+   "fieldname": "payment_status",
+   "fieldtype": "Select",
+   "label": "Payment Status",
+   "options": "Pending\nCompleted\nFailed\nCancelled"
+  },
+  {
+   "fieldname": "column_break_ppvc",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "delivery_address",
+   "fieldtype": "Link",
+   "label": "Delivery Address",
+   "options": "Ecom Address"
+  },
+  {
+   "fieldname": "mode_of_payment",
+   "fieldtype": "Link",
+   "label": "Mode of Payment",
+   "options": "Ecom Mode of Payment"
+  },
+  {
+   "fieldname": "column_break_yu8e",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "order_date",
+   "fieldtype": "Date",
+   "label": "Order Date"
+  },
+  {
+   "fieldname": "deilvery_date",
+   "fieldtype": "Date",
+   "label": "Deilvery Date"
+  },
+  {
+   "fieldname": "section_break_yale",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "order_items",
+   "fieldtype": "Table",
+   "label": "Order Items",
+   "options": "Ecom Order Item"
+  },
+  {
+   "fieldname": "section_break_7ms7",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "total_qty",
+   "fieldtype": "Data",
+   "label": "Total Qty",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_yr3b",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "total_amount",
+   "fieldtype": "Currency",
+   "label": "Total Amount",
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-08-15 17:50:57.668559",
+ "modified_by": "Administrator",
+ "module": "Ecom",
+ "name": "Ecom Order",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

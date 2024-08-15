@@ -1,0 +1,84 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:tax_title",
+ "creation": "2024-08-15 09:25:27.330400",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_vq7p",
+  "tax_title",
+  "column_break_54bv",
+  "tax_per",
+  "column_break_xxmy",
+  "hsn",
+  "section_break_h5ea",
+  "hsn_description"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_vq7p",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "tax_title",
+   "fieldtype": "Data",
+   "label": "Tax Title",
+   "unique": 1
+  },
+  {
+   "fieldname": "column_break_54bv",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "tax_per",
+   "fieldtype": "Float",
+   "label": "Tax Per"
+  },
+  {
+   "fieldname": "column_break_xxmy",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "hsn",
+   "fieldtype": "Link",
+   "label": "HSN",
+   "options": "Econ HSN"
+  },
+  {
+   "fieldname": "section_break_h5ea",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fetch_from": "hsn.hsn_description",
+   "fieldname": "hsn_description",
+   "fieldtype": "Small Text",
+   "label": "HSN Description"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-08-15 17:04:31.623951",
+ "modified_by": "Administrator",
+ "module": "Ecom",
+ "name": "Ecom Tax Category",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

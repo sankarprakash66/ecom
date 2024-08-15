@@ -1,0 +1,76 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:customer",
+ "creation": "2024-08-15 16:20:41.976122",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_sisj",
+  "customer",
+  "column_break_f0oc",
+  "customer_name",
+  "section_break_chuy",
+  "customer_favourites"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_sisj",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "customer",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Customer",
+   "options": "Ecom Customer",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "column_break_f0oc",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "customer.customer_name",
+   "fieldname": "customer_name",
+   "fieldtype": "Data",
+   "label": "Customer Name"
+  },
+  {
+   "fieldname": "section_break_chuy",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "customer_favourites",
+   "fieldtype": "Table",
+   "label": "Customer Favourites",
+   "options": "Ecom Customer Favourites items"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-08-15 16:35:30.223969",
+ "modified_by": "Administrator",
+ "module": "Ecom",
+ "name": "Ecom Customer Favourites",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,180 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "naming_series:",
+ "creation": "2024-07-21 11:42:36.843683",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_om3a",
+  "naming_series",
+  "item_code",
+  "column_break_give",
+  "item_name",
+  "section_break_7g1a",
+  "item_category",
+  "column_break_iima",
+  "item_tax",
+  "column_break_xstf",
+  "price",
+  "column_break_9e4m",
+  "old_price",
+  "section_break_n1w3",
+  "attach_1",
+  "item_image_1",
+  "column_break_ouhc",
+  "attach_2",
+  "item_image_2",
+  "column_break_heqz",
+  "attach_3",
+  "item_image_3",
+  "column_break_vz6x",
+  "attach_4",
+  "item_image_4"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_om3a",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "item_code",
+   "fieldtype": "Data",
+   "label": "Item Code"
+  },
+  {
+   "fieldname": "column_break_give",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "item_name",
+   "fieldtype": "Data",
+   "label": "Item name"
+  },
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "hidden": 1,
+   "label": "Naming",
+   "options": "ITEM.-.YYYY.-"
+  },
+  {
+   "fieldname": "section_break_7g1a",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "item_category",
+   "fieldtype": "Link",
+   "label": "Item Category",
+   "options": "Ecom Category"
+  },
+  {
+   "fieldname": "column_break_iima",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "item_category.tax_per",
+   "fieldname": "item_tax",
+   "fieldtype": "Data",
+   "label": "Item Tax"
+  },
+  {
+   "fieldname": "column_break_xstf",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "price",
+   "fieldtype": "Data",
+   "label": "Price"
+  },
+  {
+   "fieldname": "column_break_9e4m",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "old_price",
+   "fieldtype": "Data",
+   "label": "Old Price"
+  },
+  {
+   "fieldname": "section_break_n1w3",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "item_image_1",
+   "fieldtype": "Image",
+   "options": "attach_1"
+  },
+  {
+   "fieldname": "column_break_ouhc",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "item_image_2",
+   "fieldtype": "Image",
+   "options": "attach_2"
+  },
+  {
+   "fieldname": "column_break_heqz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "item_image_3",
+   "fieldtype": "Image",
+   "options": "attach_3"
+  },
+  {
+   "fieldname": "attach_1",
+   "fieldtype": "Attach",
+   "label": "Item Image 1"
+  },
+  {
+   "fieldname": "attach_2",
+   "fieldtype": "Attach",
+   "label": "Item Image 2"
+  },
+  {
+   "fieldname": "attach_3",
+   "fieldtype": "Attach",
+   "label": "Item Image 3"
+  },
+  {
+   "fieldname": "column_break_vz6x",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "attach_4",
+   "fieldtype": "Attach"
+  },
+  {
+   "fieldname": "item_image_4",
+   "fieldtype": "Image",
+   "options": "attach_4"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-07-21 13:22:44.897696",
+ "modified_by": "Administrator",
+ "module": "Ecom",
+ "name": "Ecom Item",
+ "naming_rule": "By \"Naming Series\" field",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
